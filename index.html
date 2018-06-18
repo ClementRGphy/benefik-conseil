@@ -76,17 +76,20 @@
     </nav>
 </section>
 
-<section class="engine"><a href="https://mobirise.me/h">how to create a web page for free</a></section><section class="cid-qTkA127IK8 mbr-fullscreen" data-bg-video="https://www.youtube.com/watch?v=pGbIOC83-So" id="header2-1">
+<section class="engine"><a href="https://mobirise.me/h">how to create a web page for free</a></section><section class="cid-qTkA127IK8 mbr-fullscreen" 
+data-bg-video="https://www.youtube.com/watch?v=pGbIOC83-So" id="header2-1">
 
     
 
     
 
-    <div class="container align-center" style="width:70%">
+    <div class="container align-center" >
         <div class="row justify-content-md-center">
             <div class="mbr-white col-md-10">
 
             	<style>
+
+                .container{width:80%;}
             		#central
             		{
             			/*background: rgba(255,255,255, .5);*/
@@ -100,24 +103,28 @@
 
             		#titres
             		{
-						background: rgba(255,255,255, .5);
+						background: rgba(255,255,255, .8);
 
-            			padding : 7%;
+            			padding : 3.5%;
 
-            			margin-top : 00px;
+            			margin-top : 2%;
                         height:100%;
-            		    background-color: green;
+            		    
                     }
 
                     .titre
                     {
-                        color :#444444;
+                        color :black;
                         font-family: Georgia;
+                        font-size:160%;
+                        -webkit-transition: all 0.45s ease-in-out;
+                        transition: all 0.45s ease-in-out;
+                    
                     }
 
             		#liens
             		{
-            			margin-top : 10%;
+            			margin-top : 4%;
             			display:flex;
             			flex-flow : row wrap;
             			justify-content: space-around;
@@ -128,19 +135,20 @@
             		{
 
             			/*border : 5px black solid;*/
-            			width : 30% ;
+            			width : 31% ;
             			/*height : 200px;*/
 
             			position : relative;
-            			padding : 6% 0;
+            			padding:3% 3% 3% 3%;box-shadow:1px 1px 2px black;
             			margin : 1%;
-            			background: rgba(255,255,255, .7);
+            			background: rgba(255,255,255, .8);
 
 
             			overflow: hidden;
+                        cursor:pointer;
 
             		}
-
+                    
             		.apparait
             		{
             			width:100%; height:100%;
@@ -148,7 +156,7 @@
             			position : absolute;
             			top: 0px;
             			left: 0px;
-            			transform: translate(0px, -200%);
+            			transform: translate(0px, -300%);
             			transition: all 1s;
             		}
 
@@ -163,62 +171,111 @@
             		h2
             		{
 
-            			color : #333333;
-            			font-size: 1.5em;
+            			color : black;
+            			
             			font-weight: 0.5;
-            			font-family: "Tahoma";
+            			font-family: Georgia, serif;
+                        font-size:110%;padding-bottom:2%;
             		}
 
 
             		.numero
             		{
-            			position: absolute;;
-            			top : 0;
-            			left : 10px;
+            			
 
             			color : #222222;
             			font-family: "Georgia, serif";
-            			font-size : 2em;
+
+            			font-size : 1.4em;
             			font-weight: bold;
+                        
+                        
+                        width:100%;text-align:left;
             		}
 
-                    #titreapparition
+
+                    .titreapparition
                     {
                         position : absolute;
                         top: 0px;
                         left: 0px;
-                        padding:7%;
+                        
 
                         /*background-color: blue;*/
                         width:100%;
                         height:100%;
                         /*transform: translate(0px, -200%);*/
                         
-                        background: rgba(255,255,255, .5);
+                        color:black;
+                        opacity:0;
+                        -webkit-transition: all 1.5s ease-in-out;
+                        transition: all 1.5s ease-in-out;
+                        transform: translate(-100%,0%);
 
-                        transition: all 1s;
-                    }*/
-
-                    #case1
-                    {
-                        height: 100%;
-                        width:100%;
-                        background-color: yellow;
+                        
                     }
 
-                    #case1:hover #titreapparition
+                    
+                    #case1 
                     {
-                        background: rgba(255,0,255, 1.0);
-                        /*transform: translate(0px,0px);*/
-
+                        cursor: pointer;
+                        
+                        
                     }
+                 
+                    
 
                     #container
                     {
                         position:relative;
                         width:100%;
                         height:100%;
-                        background-color: red;
+                        
+                    }
+                    
+
+
+
+                    .button1{
+                        
+                        
+                        position:absolute;
+                        color:white
+                        -webkit-transition: all 0.45s ease-in-out;
+                        transition: all 0.45s ease-in-out;
+                        top: 50%;left: 50%;transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);
+                       
+                        opacity:0;
+                    background: rgba(55,55,55, .99);
+                    z-index:10;
+                    padding:12px;
+                    width:120px;
+
+
+                    }
+                    
+                    .sous-titre{
+                        font-size:120%;padding:1%;
+                    }
+                    .button1:hover {
+                         background: rgba(0,0,0, .99);
+                    }
+
+
+ @media screen and (max-width:950px){
+                    .sous-titre{
+                        font-size:120%;
+                    }
+                        .lienCentre{
+                            width:48%;
+                        }
+                        .container{
+                            width:100%;
+                        }
+                        .numero{
+                            font-size:100%;
+                        }
+                        h2{font-size:100%;}
                     }
 
             	</style>
@@ -228,16 +285,29 @@
                 <div id="central">
 
                     <div id="container">
-                        <div id="titres">
-                            <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1 titre">Benefik <span style="color:#333377">Conseil</span>™</h1>
+                        <div id="titres" style="">
+                            <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1 titre" id="titre1">Benefik <span style="color:#333377">Conseil</span>™</h1>
 
-                            <h2 class="titre"> Une gamme complète de produits et de services indispensables à votre projet.</h2>
+                            <h2 class="titre" id="titre2"> Une gamme complète de produits et services indispensables à votre projet.</h2>
                         </div>
 
                         
-                        <div id="titreapparition">
-                                ffesdcelm;
-                        </div>
+                       <div class="titreapparition" id="titreapparition1">
+                           
+                           <div class="sous-titre" style="margin-top:24px;" > Flexibilité</div>
+                           <div class="sous-titre"> Compétences</div>
+                           <div class="sous-titre" > Technologie...</div>
+                       </div>
+                        
+                        <div class="titreapparition" id="titreapparition2"></div>
+                        <div class="titreapparition" id="titreapparition3"></div>
+                        
+                        <div class="titreapparition" id="titreapparition4"></div>
+                        <div class="titreapparition" id="titreapparition5"></div>
+                        <div class="titreapparition" id="titreapparition6"></div>
+                                
+                        </div> 
+                        
 
                     </div>
 
@@ -249,56 +319,81 @@
 			                </p> -->
 
 					<div id="liens">
-						<div class="lienCentre" id="case1" style="cursor: pointer">
-                            <h2>Logistique</h2>
-								<span class="numero">01</span>
-                            
+						
+                        <div class="lienCentre" 
+                        onmouseover="titre_appear(1)"
+                        onmouseout="titre_desappear(1)">
+                            <div class="numero">01</div>
+                            <h2>Logistique<br>&nbsp;</h2>
+								
                             <div class="apparait">
                                 <img src="images/logistique.jpg" width="100%">
 							</div>
-						</div>
+						<div class="button1" id="button1">Voir</div>
 
-		            	<div class="lienCentre" id="case2">
-		            		<h2>Marketing et communication</h2>
-		            			<span class="numero">02</span>
+                        </div>
+
+
+
+
+
+		            	<div class="lienCentre" 
+                        onmouseover="titre_appear(2)"
+                        onmouseout="titre_desappear(2)">
+		            		<div class="numero">02</div>
+                            <h2>Marketing et <br>communication</h2>
+		            			
                                 
                             <div class="apparait">
                                 <img src="images/marketing2.jpg" width="100%">
 
 		            		</div>
+                            <div class="button1" id="button2">Voir</div>
 		            	</div>
 
-		            	<div class="lienCentre" id="case3">
-		            		<h2>Gestion d'administration</h2>
-			            		<span class="numero">03</span>
+		            	<div class="lienCentre" onmouseover="titre_appear(3)"
+                        onmouseout="titre_desappear(3)">
+                        <div class="numero">03</div>
+		            		<h2>Gestion <br>d'administration</h2>
+			            		
 
                             <div class="apparait">
                                 <img src="images/gestion.jpg" width="100%">
 		            		</div>
+                            <div class="button1" id="button3">Voir</div>
 		            	</div>
 		            	
-		            	<div class="lienCentre" id="case4">
-			            		<span class="numero">04</span>
-                            <h2>Suivi, fidélisation, relation client</h2>
+		            	<div class="lienCentre" 
+                        onmouseover="titre_appear(4)"
+                        onmouseout="titre_desappear(4)">
+			            		<div class="numero">04</div>
+                            <h2>Suivi, fidélisation,<br> relation client</h2>
                             <div class="apparait">
                                 <img src="images/suivi.jpg" width="100%">
 		            		</div>
+                            <div class="button1" id="button4">Voir</div>
 		            	</div>
 		            	
-		            	<div class="lienCentre" id="case5">
-		            			<span class="numero">05</span>
+		            	<div class="lienCentre" i
+                        onmouseover="titre_appear(5)"
+                        onmouseout="titre_desappear(5)">
+		            			<div class="numero">05</div>
                             <h2>Accompagnement, formation</h2>
                             <div class="apparait">
                                 <img src="images/accompagnement.jpg" width="100%">
 		            		</div>
+                            <div class="button1" id="button5">Voir</div>
 		            	</div>
 		            	
-		            	<div class="lienCentre" id="case6">
-		            			<span class="numero">06</span>
+		            	<div class="lienCentre" 
+                        onmouseover="titre_appear(6)"
+                        onmouseout="titre_desappear(6)">
+		            			<div class="numero">06</div>
                             <h2>Recherche et développement</h2>
                             <div class="apparait">
                                 <img src="images/r_d.jpg" width="100%">
 		            		</div>
+                            <div class="button1" id="button6">Voir</div>
 		            	</div>
 		            </div>
 
@@ -434,4 +529,29 @@
   
   
 </body>
+
+
 </html>
+
+
+<script type="text/javascript">
+function titre_appear(id){
+   
+    document.getElementById('titreapparition'+id).style.opacity='1';
+    document.getElementById('button'+id).style.opacity='1';
+    document.getElementById('titreapparition'+id).style.transform='translate(0px, 0px)';
+    document.getElementById('titre1').style.opacity='0';
+    document.getElementById('titre2').style.opacity='0';
+
+}
+ 
+function titre_desappear(id){
+    
+    document.getElementById('titreapparition'+id).style.opacity='0';
+    document.getElementById('button'+id).style.opacity='0';
+    document.getElementById('titreapparition'+id).style.transform='translate(-100%, 0px)';
+    document.getElementById('titre1').style.opacity='1';
+    document.getElementById('titre2').style.opacity='1';
+}
+
+</script>
