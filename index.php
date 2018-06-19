@@ -77,7 +77,7 @@
 </section>
 
 <section class="engine"><a href="https://mobirise.me/h">how to create a web page for free</a></section><section class="cid-qTkA127IK8 mbr-fullscreen" 
-data-bg-video="https://www.youtube.com/watch?v=pGbIOC83-So" id="header2-1">
+data-bg-video="https://www.youtube.com/watch?v=RN8ss708b6M" id="header2-1">
 
     
 
@@ -110,6 +110,10 @@ data-bg-video="https://www.youtube.com/watch?v=pGbIOC83-So" id="header2-1">
                         transition: all 0.45s ease-in-out;
             			margin-top : 2%;
                         height:100%;
+
+                         box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+                        border-radius:2px;
             		    
                     }
 
@@ -140,7 +144,8 @@ data-bg-video="https://www.youtube.com/watch?v=pGbIOC83-So" id="header2-1">
             			/*height : 200px;*/
 
             			position : relative;
-            			padding:3% 3% 3% 3%;box-shadow:1px 1px 2px black;
+            			padding:3% 3% 3% 3%;
+                         box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
             			margin : 1%;
             			background: rgba(255,255,255, .8);
 
@@ -203,7 +208,7 @@ data-bg-video="https://www.youtube.com/watch?v=pGbIOC83-So" id="header2-1">
                         
 
                         /*background-color: blue;*/
-                        width:100%;
+                        width:98%;margin-left:1%;
                         height:100%;
                         /*transform: translate(0px, -200%);*/
                         
@@ -222,7 +227,14 @@ data-bg-video="https://www.youtube.com/watch?v=pGbIOC83-So" id="header2-1">
                       margin-left:60px;
                         display: flex;
                         flex-direction: column;
+                        text-align:left;
                         justify-content: space-around;
+                        background: rgba(255,255,255, .75);
+                        padding:5% 10% 5% 10%;
+                       box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+                        border-radius:2px;
+                        margin-left:auto;
+
                     }
                     
                     #case1 
@@ -264,9 +276,10 @@ data-bg-video="https://www.youtube.com/watch?v=pGbIOC83-So" id="header2-1">
                     }
                     
                     .sous-titre{
-                        font-size:170%;
+                        font-size:140%;
                         font-family: "Arial";
                         
+
 
                     }
                     .button1:hover {
@@ -276,7 +289,7 @@ data-bg-video="https://www.youtube.com/watch?v=pGbIOC83-So" id="header2-1">
 
  @media screen and (max-width:950px){
                     .sous-titre{
-                        font-size:170%;
+                        font-size:100%;
                     }
                         .lienCentre{
                             width:48%;
@@ -539,7 +552,7 @@ function titre_appear(id){
    
     document.getElementById('titreapparition'+id).style.opacity='1';
     document.getElementById('button'+id).style.opacity='1';
-    document.getElementById('titres').style.opacity='0.2';
+    document.getElementById('titres').style.opacity='0';
     document.getElementById('titreapparition'+id).style.transform='translate(0px, 0px)';
     document.getElementById('titre1').style.opacity='0';
     document.getElementById('titre2').style.opacity='0';
