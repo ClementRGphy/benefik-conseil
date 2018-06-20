@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
-  
+  <link rel="stylesheet" href="css/style.css">
 
   
   
@@ -40,44 +40,68 @@
         <div class="menu-logo">
             <div class="navbar-brand">
                 <span class="navbar-logo">
-                    <a href="https://mobirise.com">
-                         <img src="assets/images/logo2.png" alt="Mobirise" style="height: 3.8rem;">
-                    </a>
+                   <img class="logo1" src="images/logo.png" />
                 </span>
                 <span class="navbar-caption-wrap">
                     <a class="navbar-caption text-white display-4" href="https://mobirise.com">
-                        MOBIRISE
+                        Benefik <span style="color:#e61e82">Conseil</span>
+                           
                     </a>
                 </span>
             </div>
         </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
-                <li class="nav-item">
-                    <a class="nav-link link text-white display-4" href="https://mobirise.com">
-                        <span class="mbri-home mbr-iconfont mbr-iconfont-btn"></span>
-                        Services
+             <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
+                <li class="nav-item" >
+                    <a class="nav-link link  display-4 color-menu" href="logistique.php" >
+                       <img class="icone"src="images/icones/build.png" />
+                        Logistique
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link link text-white display-4" href="https://mobirise.com">
+                    <a class="nav-link link  display-4 color-menu" href="marketing.php">
+                        <img class="icone"src="images/icones/money.png" />
+                        Marketing/Com
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link  display-4 color-menu" href="gestion-administration.php">
+                         <img class="icone"src="images/icones/group.png" />
+                        Administration
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link  display-4 color-menu" href="fidelisation-client.php">
+                         <img class="icone"src="images/icones/clientcontent.png" />
+                        Gestion clients
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link  display-4 color-menu" href="accompagnement-formation.php">
+                        <img class="icone"src="images/icones/teacher.png" />
+                        Formation
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link  display-4 color-menu" href="recherche-developpement.php">
+                        <img class="icone"src="images/icones/dev.png" />
+                        Recherche & Dev
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link  display-4 color-menu" href="about.php">
                         <span class="mbri-search mbr-iconfont mbr-iconfont-btn"></span>
-                        About Us
+                        A propos
                     </a>
                 </li>
             </ul>
-            <div class="navbar-buttons mbr-section-btn">
-                <a class="btn btn-sm btn-primary display-4" href="https://mobirise.com">
-                    <span class="mbri-save mbr-iconfont mbr-iconfont-btn "></span>
-                    Try It Now!
-                </a>
-            </div>
+            
         </div>
     </nav>
 </section>
 
 <section class="engine"><a href="https://mobirise.me/h">how to create a web page for free</a></section><section class="cid-qTkA127IK8 mbr-fullscreen" 
-data-bg-video="https://www.youtube.com/watch?v=pGbIOC83-So" id="header2-1">
+data-bg-video="https://www.youtube.com/watch?v=RN8ss708b6M" id="header2-1">
 
     
 
@@ -88,7 +112,6 @@ data-bg-video="https://www.youtube.com/watch?v=pGbIOC83-So" id="header2-1">
             <div class="mbr-white col-md-10">
 
             	<style>
-
                 .container{width:80%;}
             		#central
             		{
@@ -97,22 +120,19 @@ data-bg-video="https://www.youtube.com/watch?v=pGbIOC83-So" id="header2-1">
             			-webkit-transition: all 2s ease-in-out;
             			transition: all 2s ease-in-out;
                         position:relative;
-
-
             		}
-
             		#titres
             		{
 						background: rgba(255,255,255, .8);
-
             			padding : 3.5%;
 -webkit-transition: all 0.45s ease-in-out;
                         transition: all 0.45s ease-in-out;
             			margin-top : 2%;
                         height:100%;
+                         box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+                        border-radius:2px;
             		    
                     }
-
                     .titre
                     {
                         color :black;
@@ -122,32 +142,25 @@ data-bg-video="https://www.youtube.com/watch?v=pGbIOC83-So" id="header2-1">
                         transition: all 0.45s ease-in-out;
                     
                     }
-
             		#liens
             		{
             			margin-top : 4%;
             			display:flex;
             			flex-flow : row wrap;
             			justify-content: space-around;
-
             		}
-
             		.lienCentre
             		{
-
             			/*border : 5px black solid;*/
             			width : 31% ;
             			/*height : 200px;*/
-
             			position : relative;
-            			padding:3% 3% 3% 3%;box-shadow:1px 1px 2px black;
+            			padding:3% 3% 3% 3%;
+                         box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
             			margin : 1%;
             			background: rgba(255,255,255, .8);
-
-
             			overflow: hidden;
                         cursor:pointer;
-
             		}
                     
             		.apparait
@@ -160,50 +173,39 @@ data-bg-video="https://www.youtube.com/watch?v=pGbIOC83-So" id="header2-1">
             			transform: translate(0px, -300%);
             			transition: all 1s;
             		}
-
-
             		.lienCentre:hover .apparait
             		{
             			/*background: rgba(255,255,255, .0);
             			*/
             			transform: translate(0px,0px);
             		}
-
             		h2
             		{
-
             			color : black;
             			
             			font-weight: 0.5;
             			font-family: Georgia, serif;
                         font-size:110%;padding-bottom:2%;
             		}
-
-
             		.numero
             		{
             			
-
             			color : #222222;
             			font-family: "Georgia, serif";
-
             			font-size : 1.4em;
             			font-weight: bold;
                         
                         
                         width:100%;text-align:left;
             		}
-
-
                     .titreapparition
                     {
                         position : absolute;
                         top: 0px;
                         left: 0px;
                         
-
                         /*background-color: blue;*/
-                        width:100%;
+                        width:98%;margin-left:1%;
                         height:100%;
                         /*transform: translate(0px, -200%);*/
                         
@@ -212,17 +214,20 @@ data-bg-video="https://www.youtube.com/watch?v=pGbIOC83-So" id="header2-1">
                         -webkit-transition: all 1.25s ease-in-out;
                         transition: all 1.25s ease-in-out;
                         transform: translate(-100%,0%);
-
                         display:flex;
                         
                     }
-
                     .container-sous-titres{
-
                       margin-left:60px;
                         display: flex;
                         flex-direction: column;
+                        text-align:left;
                         justify-content: space-around;
+                        background: rgba(255,255,255, .75);
+                        padding:5% 10% 5% 10%;
+                       box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+                        border-radius:2px;
+                        margin-left:auto;
                     }
                     
                     #case1 
@@ -233,7 +238,6 @@ data-bg-video="https://www.youtube.com/watch?v=pGbIOC83-So" id="header2-1">
                     }
                  
                     
-
                     #container
                     {
                         position:relative;
@@ -242,9 +246,6 @@ data-bg-video="https://www.youtube.com/watch?v=pGbIOC83-So" id="header2-1">
                         
                     }
                     
-
-
-
                     .button1{
                         
                         
@@ -259,24 +260,19 @@ data-bg-video="https://www.youtube.com/watch?v=pGbIOC83-So" id="header2-1">
                     z-index:10;
                     padding:12px;
                     width:120px;
-
-
                     }
                     
                     .sous-titre{
-                        font-size:170%;
+                        font-size:140%;
                         font-family: "Arial";
                         
-
                     }
                     .button1:hover {
                          background: rgba(0,0,0, .99);
                     }
-
-
  @media screen and (max-width:950px){
                     .sous-titre{
-                        font-size:170%;
+                        font-size:100%;
                     }
                         .lienCentre{
                             width:48%;
@@ -289,7 +285,6 @@ data-bg-video="https://www.youtube.com/watch?v=pGbIOC83-So" id="header2-1">
                         }
                         h2{font-size:100%;}
                     }
-
             	</style>
 
 
@@ -539,11 +534,10 @@ function titre_appear(id){
    
     document.getElementById('titreapparition'+id).style.opacity='1';
     document.getElementById('button'+id).style.opacity='1';
-    document.getElementById('titres').style.opacity='0.2';
+    document.getElementById('titres').style.opacity='0';
     document.getElementById('titreapparition'+id).style.transform='translate(0px, 0px)';
     document.getElementById('titre1').style.opacity='0';
     document.getElementById('titre2').style.opacity='0';
-
 }
  
 function titre_desappear(id){
@@ -555,5 +549,4 @@ function titre_desappear(id){
     document.getElementById('titres').style.opacity='1';
     document.getElementById('titre2').style.opacity='1';
 }
-
 </script>
