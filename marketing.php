@@ -2,19 +2,19 @@
 <meta name="category" content="Marketing & Com">
 
 <div class="cadre_sections shadow_google">
- <img class="image_left" src="images/marketing.jpg"></img>
+ <img class="image_left" id="image_left"src="images/marketing.jpg"></img>
     
 <div class="article2" id="article2" >
 
 
 <div><h2 STYLE="font-size:130%;">Marketing & communication</div><hr></h2>
 <ul>
-<li>Guide métiers</li>
-<li>Catalogues</li>
-<li>Fiche conseil</li>
-<li>Logo</li>
-<li>Charte graphique</li>
-<li>Web marketing Etude de marché</li>
+<li>Guide métiers.</li>
+<li>Catalogues.</li>
+<li>Fiche conseil.</li>
+<li>Logo.</li>
+<li>Charte graphique.</li>
+<li>Web marketing Etude de marché.</li>
 </ul>
 
 <div class="contact" >

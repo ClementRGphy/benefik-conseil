@@ -1,7 +1,7 @@
 <?php include('inc/header-root.php');?>
 
 <div class="cadre_sections shadow_google">
- <img class="image_left" src="images/formation.png"></img>
+ <img class="image_left" id="image_left"src="images/formation.png"></img>
     
 <div class="article2" id="article2" >
 

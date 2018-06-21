@@ -7,7 +7,7 @@
         
 
 
-<div class="section_article">
+<div class="section_article" id="sec_arti1">
 <h1 style="font-size:180%">Benefik Conseil <img class="icones2" style="margin-top:-9px;"src="images/icones/work.png"></img></h1>
                     
 <p>
@@ -29,7 +29,7 @@ Nous avons donc souhaité contrer ces gaiblesses en développant BENEFIK CONSEIL
 
 
 
-<div class="section_article">
+<div class="section_article"  id="sec_arti2">
 <h1 >Facilitateurs d'affaires <img class="icones2" style="margin-left:1px;margin-top:-9px;"src="images/icones/dollarblack.png"></img></h1>
 <p >
 Un modèle d'entreprise sur un marché porteur nécessite un partenaire professionnel et efficace.<br>
@@ -46,7 +46,7 @@ Une gamme complète de produits et de service indispensable à la réussite de v
 
 
 
-<div class="section_article" >
+<div class="section_article"  id="sec_arti3">
 <h1 >Notre Segmentation</h1>
 <div class="liste1" style="">
 	
@@ -77,7 +77,7 @@ Une gamme complète de produits et de service indispensable à la réussite de v
 
 
 
-<div class="section_article">
+<div class="section_article" id="sec_arti4">
 <h1 >Les allégations<img class="icones2" style="margin-top:-9px;"src="images/icones/check.png"></h1>
 <p >
 
@@ -99,3 +99,13 @@ Recherche et développement : intégration dans nos équipes d'un comité scient
 
 </section>
 <?php include('inc/footer.php');?>
+<script type="text/javascript">
+	  document.getElementById('sec_arti3').style.opacity='1';
+    document.getElementById('sec_arti3').style.fontSize='20px';
+      document.getElementById('sec_arti2').style.opacity='1';
+    document.getElementById('sec_arti2').style.fontSize='20px';
+      document.getElementById('sec_arti4').style.opacity='1';
+    document.getElementById('sec_arti4').style.fontSize='20px';
+    document.getElementById('sec_arti1').style.opacity='1';
+    document.getElementById('sec_arti1').style.fontSize='20px';
+</script>

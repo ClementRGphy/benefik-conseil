@@ -72,6 +72,7 @@ padding-top:1%;padding-bottom:4;font-size:13px;
                         -webkit-transition: all 0.45s ease-in-out;
                         transition: all 0.45s ease-in-out;
                         padding-left:5%;padding-right:5%;
+                        text-align:center;
                     
                     }
 
@@ -93,7 +94,7 @@ padding-top:1%;padding-bottom:4;font-size:13px;
 
             			position : relative;
             			padding:3% 3% 3% 3%;
-                         
+                         text-align:center;
             			margin : 1%;
             			background: rgba(255,255,255, .8);
 -webkit-transition: all 0.45s ease-in-out;
@@ -148,11 +149,15 @@ padding-top:1%;padding-bottom:4;font-size:13px;
                         width:100%;text-align:left;
             		}
 
-
+                    .section_article{
+                        opacity:0;font-size:10px;
+                        -webkit-transition: all 0.75s;
+                        transition: all 0.75s;
+                    }
                     .titreapparition
                     {
                         position : absolute;
-                        top: 0px;
+                        top: 15px;
                         left: 0px;
                         
 
@@ -212,7 +217,7 @@ padding-top:1%;padding-bottom:4;font-size:13px;
                         
                         
                         position:absolute;
-                        color:white
+                        color:white;
                         -webkit-transition: all 0.45s ease-in-out;
                         transition: all 0.45s ease-in-out;
                         top: 50%;left: 50%;transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);
@@ -262,7 +267,8 @@ padding-top:1%;padding-bottom:4;font-size:13px;
                             width:98%;
                         }
                         .numero{
-                            font-size:100%;
+                            font-size:130%;
+                            font-family: 'Great Vibes', cursive;
                         }
                         h2{font-size:100%;}
                     }
@@ -281,8 +287,9 @@ padding-top:1%;padding-bottom:4;font-size:13px;
 
 .article2{color:black;text-align:left;width:49%;padding-top:3%;
     font-size:110%;
-transform: translate(20%, 0%);
-transition: all 2s;
+transform: translate(10%, 0%);
+transition: all 1.5s;
+-webkit-transition: all 1.5s;
 opacity:0;
 
 
@@ -291,7 +298,12 @@ opacity:0;
 
 
 
-.image_left{width:50%;height:50%;}
+.image_left{width:50%;height:50%;opacity:0.8;
+transform: translate(-10%, 0%);
+transition: all 1.5s;
+-webkit-transition: all 1.5s;
+opacity:0;
+                        }
 .ligne{border:1px solid black;width:100%}
 @media screen and (max-width:600px){
     .image_left{width:25%;height:25%;display:none;}

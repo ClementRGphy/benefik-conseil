@@ -31,9 +31,11 @@
 
 					<div id="liens" >
 						
-                        <div class="lienCentre shadow_google shadow_google" onclick="window.location='logistique.php'"
+                        
+
+                        <div class="lienCentre shadow_google" onclick="window.location='logistique.php'"
                         onmouseover="titre_appear(1)"
-                        onmouseout="titre_desappear(1)">
+                        onmouseout="titre_desappear(1)" id="cadre1">
                             <div class="numero">01</div>
                             <h2>Logistique<br>&nbsp;</h2>
 								
@@ -52,16 +54,31 @@
                         onmouseover="titre_appear(2)"
                         onmouseout="titre_desappear(2)"
                         onclick="window.location='marketing.php'">
-		            		<div class="numero">02</div>
+		            		
+                            <div class="numero">02</div>
                             <h2>Marketing et <br>communication</h2>
 		            			
                                 
-                            <div class="apparait">
+                            <div class="apparait" >
                                 <img src="images/marketing2.jpg" width="100%">
 
 		            		</div>
                             <div class="button1" id="button2">Voir</div>
 		            	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 		            	<div class="lienCentre shadow_google" onmouseover="titre_appear(3)"
                         onmouseout="titre_desappear(3)"
@@ -93,7 +110,7 @@
                         onmouseout="titre_desappear(5)"
                         onclick="window.location='Accompagnement-formation.php'">
 		            			<div class="numero">05</div>
-                            <h2>Accompagnement, formation</h2>
+                            <h2>&nbsp;&nbsp;&nbsp;&nbsp;Formation</h2>
                             <div class="apparait">
                                 <img src="images/accompagnement.jpg" width="100%">
 		            		</div>
@@ -103,9 +120,9 @@
 		            	<div class="lienCentre shadow_google" 
                         onmouseover="titre_appear(6)"
                         onmouseout="titre_desappear(6)"
-                        onclick="window.location='recherche-developpement.php'"">
+                        onclick="window.location='recherche-developpement.php'">
 		            			<div class="numero">06</div>
-                            <h2>Recherche et développement</h2>
+                            <h2>&nbsp;&nbsp;&nbsp;&nbsp;Recherche et développement</h2>
                             <div class="apparait">
                                 <img src="images/r_d.jpg" width="100%">
 		            		</div>

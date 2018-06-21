@@ -19,22 +19,22 @@
   <link rel="icon" type="image/png" href="images/logo.png" />
 
     
-  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
+<link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
  
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
 
  
 
-  <link rel="stylesheet" href="assets/socicon/css/styles.css">
-  <link rel="stylesheet" href="assets/dropdown/css/style.css">
-  <link rel="stylesheet" href="assets/theme/css/style.css">
-  <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+<link rel="stylesheet" href="assets/socicon/css/styles.css">
+<link rel="stylesheet" href="assets/dropdown/css/style.css">
+<link rel="stylesheet" href="assets/theme/css/style.css">
+<link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
 <link rel="stylesheet" href="css/style.css">
-
+<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
   
   
 </head>
-<body onload="effect1()"> 
+<body onload="effect1();effect2();effect3();"> 
   <section class="menu cid-qTkzRZLJNu" once="menu" id="menu1-0">
 
     
@@ -119,6 +119,6 @@ data-bg-video="https://www.youtube.com/watch?v=RN8ss708b6M" id="header2-1">
 
     
 
-    <div class="container align-center" style="margin-top:40px">
+    <div class="container align-center" style="margin-top:65px">
         <div class="row justify-content-md-center">
             <div class="mbr-white col-md-12" >

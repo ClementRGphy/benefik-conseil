@@ -2,17 +2,17 @@
 <meta name="category" content="Recherche, développement">
 
 <div class="cadre_sections shadow_google">
- <img class="image_left" src="images/recherche.png"></img>
+ <img class="image_left" id="image_left"src="images/recherche.png"></img>
     
 <div class="article2" id="article2" >
 
 
 <div><h2 STYLE="font-size:110%;">Recherche et développement</div><hr></h2>
 <ul>
-<li>Réponses aux demandes du marché</li>
-<li>Assurer sa pérennité</li> 
-<li>Valeur des produits</li>
-<li>Utilisation des dernières données scientifiques</li>
+<li>Réponses aux demandes du marché.</li>
+<li>Assurer sa pérennité.</li> 
+<li>Valeur des produits.</li>
+<li>Utilisation des dernières données scientifiques.</li>
 </ul>
 
 <div class="contact" >

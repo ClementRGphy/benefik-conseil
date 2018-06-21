@@ -1,4 +1,4 @@
-<section class="cid-qTkAaeaxX5" id="footer1-2">
+<section class="footer_sec" id="footer1-2">
 
     
 
@@ -8,14 +8,14 @@
         <div class="media-container-row content " style="color:white">
             <div class="col-12 col-md-3">
                 <div class="media-wrap">
-                    <a href="https://mobirise.com/">
+                    <a href="index.php">
                         <img src="images/logo.png" alt="Mobirise">
                     </a>
                 </div>
             </div>
             <div class="col-12 col-md-3 mbr-fonts-style display-7">
                 <h5 class="pb-3">
-                    Addresse
+                    Adresse
                 </h5>
                 <p class="mbr-text">
                     79 avenue de la République
@@ -34,7 +34,7 @@
             </div>
             <div class="col-12 col-md-3 mbr-fonts-style display-7">
                 <h5 class="pb-3">
-                    Links
+                    Autres sites Benefik
                 </h5>
                 <p class="mbr-text">
                     <a class="text-primary" href="https://benefik-phyto.com/">Benefik-phyto</a>
@@ -93,12 +93,12 @@
 <script src="assets/web/assets/jquery/jquery.min.js"></script>
 
 
-  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
 
-  <script src="assets/ytplayer/jquery.mb.ytplayer.min.js"></script>
-  <script src="assets/vimeoplayer/jquery.mb.vimeo_player.js"></script>
+<script src="assets/ytplayer/jquery.mb.ytplayer.min.js"></script>
+<script src="assets/vimeoplayer/jquery.mb.vimeo_player.js"></script>
 
-  <script src="assets/theme/js/script.js"></script>
+<script src="assets/theme/js/script.js"></script>
 <script src="js/slide.js"></script>
   
   

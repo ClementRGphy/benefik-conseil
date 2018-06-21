@@ -2,18 +2,18 @@
 <meta name="category" content="Gestion & Administration">
 
 <div class="cadre_sections shadow_google">
- <img class="image_left" src="images/gestion2.png"></img>
+ <img class="image_left" id="image_left"src="images/gestion2.png"></img>
     
 <div class="article2" id="article2" >
 
 
 <div><h2 STYLE="font-size:110%;">Gestion & administration</div><hr></h2>
 <ul>
-<li>Administration des ventes</li>
-<li>Service après vente</li>
-<li>Gestion des contrats</li>
-<li>Process administratif et financier</li>
-<li>Veille réglementaire</li>
+<li>Administration des ventes.</li>
+<li>Service après vente.</li>
+<li>Gestion des contrats.</li>
+<li>Process administratif et financier.</li>
+<li>Veille réglementaire.</li>
 </ul>
 
 <div class="contact" >
