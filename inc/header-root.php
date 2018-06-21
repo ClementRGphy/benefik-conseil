@@ -5,18 +5,26 @@
   <!-- Site made with Mobirise Website Builder v4.7.7, https://mobirise.com -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+<meta name="title" content="Benefik Conseil">
+
   <meta name="generator" content="Mobirise v4.7.7, mobirise.com">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <link rel="shortcut icon" href="assets/images/logo2.png" type="image/x-icon">
-  <meta name="description" content="">
-  <title>Home</title>
+ <meta name="keywords" content="Benefik, Entreprise, services, projet, logistique, marketing, communication, gestion, Administration, suivi, fidélisation, relation, client, accompagnement, formation, recherche, développement, stock, import, société, prestations personnalisées, web, marketing, métiers, charte, graphique, contrat, administratif, après vente, valeur, produit, marché">
+ <meta name="reply-to" content="conseil@benefik-conseil.fr">
+  <meta name="description" content="Benefik Conseil propose des services personnalisés aux entreprises.">
+  
+<meta name="author" lang="fr" content="Benjamin DELPECH, Clément Risso">
+<meta name="identifier-url" content="https://www.benefik-conseil.fr/">
+  <link rel="icon" type="image/png" href="images/logo.png" />
+
     
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
-  <link rel="stylesheet" href="assets/tether/tether.min.css">
+ 
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
 
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+ 
+
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
@@ -31,7 +39,7 @@
 
     
 
-    <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm">
+    <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm" style="background-color:black">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <div class="hamburger">
                 <span></span>
@@ -46,8 +54,8 @@
                   
                 
                 <span class="navbar-caption-wrap">
-                   <img  src="images/logo.png" style="width:55px;max-height:55px;margin-right:7px" />
-                    <a href="index.php" style="color:white">
+                  <a href="index.php" style="color:white"> <img  src="images/logo.png" style="width:55px;max-height:55px;margin-right:7px" />
+                    
                         Benefik Conseil
                            
                     </a>
@@ -111,6 +119,6 @@ data-bg-video="https://www.youtube.com/watch?v=RN8ss708b6M" id="header2-1">
 
     
 
-    <div class="container align-center" style="margin-top:5%">
+    <div class="container align-center" style="margin-top:40px">
         <div class="row justify-content-md-center">
             <div class="mbr-white col-md-12" >

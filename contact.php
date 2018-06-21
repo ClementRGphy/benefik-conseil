@@ -1,6 +1,6 @@
 <?php include('inc/header-root.php');?>
 <?php include('inc/contact-mail.php');?>
-
+<meta name="category" content="contact">
 
 <?php if(isset($_SESSION['mail_sent'])){?>
 <div

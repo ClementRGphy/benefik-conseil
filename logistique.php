@@ -1,4 +1,5 @@
 <?php include('inc/header-root.php');?>
+<meta name="category" content="Logistique">
 
 <div class="cadre_sections shadow_google">
  <img class="image_left" src="images/logistique.png"></img>

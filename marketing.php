@@ -1,4 +1,5 @@
 <?php include('inc/header-root.php');?>
+<meta name="category" content="Marketing & Com">
 
 <div class="cadre_sections shadow_google">
  <img class="image_left" src="images/marketing.jpg"></img>

@@ -1,4 +1,5 @@
 <?php include('inc/header-root.php');?>
+<meta name="category" content="Recherche, développement">
 
 <div class="cadre_sections shadow_google">
  <img class="image_left" src="images/recherche.png"></img>

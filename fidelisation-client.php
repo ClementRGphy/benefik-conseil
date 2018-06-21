@@ -1,4 +1,5 @@
 <?php include('inc/header-root.php');?>
+<meta name="category" content="Fidelisation Client">
 
 <div class="cadre_sections shadow_google">
  <img class="image_left" src="images/client2.png"></img>
