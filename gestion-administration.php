@@ -29,3 +29,9 @@
 </section>
 
 <?php include('inc/footer.php');?>
+  <script type="text/javascript">
+     document.getElementById('article2').style.opacity='1';
+   document.getElementById('article2').style.transform='translate(0px, 0px)';
+  document.getElementById('image_left').style.opacity='1';
+    document.getElementById('image_left').style.transform='translate(0px, 0px)';
+</script>

@@ -1,5 +1,15 @@
-<?php session_start();?>
+<?php session_start();
+if(!isset($_SESSION['id'])){
+
+    $_SESSION['id']=rand(1,10000);
+    $effect2="1";
+   
+}else{
+    $effect2="0";
+}
+?>
 <!DOCTYPE html>
+
 <html >
 <head>
   <!-- Site made with Mobirise Website Builder v4.7.7, https://mobirise.com -->
@@ -25,19 +35,22 @@
 
  
 
-<link rel="stylesheet" href="assets/socicon/css/styles.css">
+
 <link rel="stylesheet" href="assets/dropdown/css/style.css">
-<link rel="stylesheet" href="assets/theme/css/style.css">
+
 <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
 <link rel="stylesheet" href="css/style.css">
 <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
   
   
 </head>
-<body onload="effect1();effect2();effect3();"> 
+<?php if($effect2=="1"){?>
+<body onload="effect2();"> <?php }else{
+    ?><body onload="effect3();"><?php 
+} ?>
   <section class="menu cid-qTkzRZLJNu" once="menu" id="menu1-0">
 
-    
+ 
 
     <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm" style="background-color:black">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,7 +69,7 @@
                 <span class="navbar-caption-wrap">
                   <a href="index.php" style="color:white"> <img  src="images/logo.png" style="width:55px;max-height:55px;margin-right:7px" />
                     
-                        Benefik Conseil
+                        Benefik Conseil    
                            
                     </a>
                 </span>
@@ -112,13 +125,31 @@
     </nav>
 </section>
 
-<section class="engine"><a href="https://mobirise.me/h">how to create a web page for free</a></section><section class="cid-qTkA127IK8 mbr-fullscreen" 
-data-bg-video="https://www.youtube.com/watch?v=RN8ss708b6M" id="header2-1">
+
+<style>
+video#bgvid {
+    position:fixed;right:0;bottom;0;
+    min-width:100%;min-height:100%;
+    width:auto;height:auto;z-index:-100;
+    background: url(font-base.jpg) no-repeat;
+    background-size: cover;
+}
+</style>
+
+
+
+
+<video autoplay loop poster="images/font-base.jpg" id="bgvid">
+    <source src="video/video1.mp4" type="video/mp4">
+</video>
+    
+
+
+
+
 
     
 
-    
-
-    <div class="container align-center" style="margin-top:65px">
+    <div class="container2 align-center" style="margin-top:65px;margin-bottom:25px;">
         <div class="row justify-content-md-center">
             <div class="mbr-white col-md-12" >

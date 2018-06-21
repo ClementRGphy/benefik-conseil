@@ -52,7 +52,7 @@
 
 		            	<div class="lienCentre shadow_google" 
                         onmouseover="titre_appear(2)"
-                        onmouseout="titre_desappear(2)"
+                        onmouseout="titre_desappear(2)" id="cadre2"
                         onclick="window.location='marketing.php'">
 		            		
                             <div class="numero">02</div>
@@ -81,7 +81,7 @@
 
 
 		            	<div class="lienCentre shadow_google" onmouseover="titre_appear(3)"
-                        onmouseout="titre_desappear(3)"
+                        onmouseout="titre_desappear(3)" id="cadre3"
                         onclick="window.location='gestion-administration.php'">
                         <div class="numero">03</div>
 		            		<h2>Gestion <br>d'administration</h2>
@@ -95,7 +95,7 @@
 		            	
 		            	<div class="lienCentre shadow_google" 
                         onmouseover="titre_appear(4)"
-                        onmouseout="titre_desappear(4)"
+                        onmouseout="titre_desappear(4)" id="cadre4"
                         onclick="window.location='fidelisation-client.php'">
 			            		<div class="numero">04</div>
                             <h2>Suivi, fidélisation,<br> relation client</h2>
@@ -107,7 +107,7 @@
 		            	
 		            	<div class="lienCentre shadow_google" i
                         onmouseover="titre_appear(5)"
-                        onmouseout="titre_desappear(5)"
+                        onmouseout="titre_desappear(5)" id="cadre5"
                         onclick="window.location='Accompagnement-formation.php'">
 		            			<div class="numero">05</div>
                             <h2>&nbsp;&nbsp;&nbsp;&nbsp;Formation</h2>
@@ -119,7 +119,7 @@
 		            	
 		            	<div class="lienCentre shadow_google" 
                         onmouseover="titre_appear(6)"
-                        onmouseout="titre_desappear(6)"
+                        onmouseout="titre_desappear(6)" id="cadre6"
                         onclick="window.location='recherche-developpement.php'">
 		            			<div class="numero">06</div>
                             <h2>&nbsp;&nbsp;&nbsp;&nbsp;Recherche et développement</h2>
@@ -149,3 +149,9 @@
 </section>
 
 <?php include('inc/footer.php');?>
+
+<script type="text/javascript">
+     
+     
+    
+</script>

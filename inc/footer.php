@@ -1,19 +1,19 @@
-<section class="footer_sec" id="footer1-2">
+<section class="footer_sec" id="footer1-2" style="background-color:black;">
 
     
 
     
 
-    <div class="container">
-        <div class="media-container-row content " style="color:white">
-            <div class="col-12 col-md-3">
+    <div class="container2" style="text-align:center;padding-top:20px;">
+        <div  style="color:white;" >
+            <div  >
                 <div class="media-wrap">
                     <a href="index.php">
-                        <img src="images/logo.png" alt="Mobirise">
+                        <img src="images/logo.png" class="logo1"alt="Mobirise">
                     </a>
                 </div>
             </div>
-            <div class="col-12 col-md-3 mbr-fonts-style display-7">
+            <div >
                 <h5 class="pb-3">
                     Adresse
                 </h5>
@@ -22,7 +22,7 @@
                     <br>17 210, Montlieu-La-Garde
                 </p>
             </div>
-            <div class="col-12 col-md-3 mbr-fonts-style display-7">
+            <div >
                 <h5 class="pb-3">
                     Contacts
                 </h5>
@@ -32,7 +32,7 @@
                     
                 </p>
             </div>
-            <div class="col-12 col-md-3 mbr-fonts-style display-7">
+            <div >
                 <h5 class="pb-3">
                     Autres sites Benefik
                 </h5>
@@ -90,15 +90,22 @@
     </div>
 </section>
 
-<script src="assets/web/assets/jquery/jquery.min.js"></script>
+  <script src="assets/web/assets/jquery/jquery.min.js"></script>
+  <script src="assets/popper/popper.min.js"></script>
+  <script src="assets/tether/tether.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
+  <script src="assets/ytplayer/jquery.mb.ytplayer.min.js"></script>
+  <script src="assets/vimeoplayer/jquery.mb.vimeo_player.js"></script>
+  <script src="assets/dropdown/js/script.min.js"></script>
+  <script src="assets/theme/js/script.js"></script>
 
 
-<script src="assets/bootstrap/js/bootstrap.min.js"></script>
 
-<script src="assets/ytplayer/jquery.mb.ytplayer.min.js"></script>
-<script src="assets/vimeoplayer/jquery.mb.vimeo_player.js"></script>
 
-<script src="assets/theme/js/script.js"></script>
+
+
 <script src="js/slide.js"></script>
   
   

@@ -1753,43 +1753,43 @@ body {
 .cid-qTkzRZLJNu .dropdown-item:hover {
   color: #c1c1c1 !important;
 }
-.footer_sec {
+.cid-qTkAaeaxX5 {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2e2e2e;
 }
 @media (max-width: 767px) {
-  .footer_sec .content {
+  .cid-qTkAaeaxX5 .content {
     text-align: center;
   }
-  .footer_sec .content > div:not(:last-child) {
+  .cid-qTkAaeaxX5 .content > div:not(:last-child) {
     margin-bottom: 2rem;
   }
 }
 @media (max-width: 767px) {
-  .footer_sec .media-wrap {
+  .cid-qTkAaeaxX5 .media-wrap {
     margin-bottom: 1rem;
   }
 }
-.footer_sec .media-wrap .mbr-iconfont-logo {
+.cid-qTkAaeaxX5 .media-wrap .mbr-iconfont-logo {
   font-size: 7.5rem;
   color: #f36;
 }
-.footer_sec .media-wrap img {
+.cid-qTkAaeaxX5 .media-wrap img {
   height: 6rem;
 }
 @media (max-width: 767px) {
-  .footer_sec .footer-lower .copyright {
+  .cid-qTkAaeaxX5 .footer-lower .copyright {
     margin-bottom: 1rem;
     text-align: center;
   }
 }
-.footer_sec .footer-lower hr {
+.cid-qTkAaeaxX5 .footer-lower hr {
   margin: 1rem 0;
   border-color: #fff;
   opacity: .05;
 }
-.footer_sec .footer-lower .social-list {
+.cid-qTkAaeaxX5 .footer-lower .social-list {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
@@ -1798,24 +1798,24 @@ body {
   justify-content: flex-end;
   -webkit-justify-content: flex-end;
 }
-.footer_sec .footer-lower .social-list .mbr-iconfont-social {
+.cid-qTkAaeaxX5 .footer-lower .social-list .mbr-iconfont-social {
   font-size: 1.3rem;
   color: #fff;
 }
-.footer_sec .footer-lower .social-list .soc-item {
+.cid-qTkAaeaxX5 .footer-lower .social-list .soc-item {
   margin: 0 .5rem;
 }
-.footer_sec .footer-lower .social-list a {
+.cid-qTkAaeaxX5 .footer-lower .social-list a {
   margin: 0;
   opacity: .5;
   -webkit-transition: .2s linear;
   transition: .2s linear;
 }
-.footer_sec .footer-lower .social-list a:hover {
+.cid-qTkAaeaxX5 .footer-lower .social-list a:hover {
   opacity: 1;
 }
 @media (max-width: 767px) {
-  .footer_sec .footer-lower .social-list {
+  .cid-qTkAaeaxX5 .footer-lower .social-list {
     justify-content: center;
     -webkit-justify-content: center;
   }

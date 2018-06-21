@@ -140,7 +140,7 @@ padding-top:1%;padding-bottom:4;font-size:13px;
             			
 
             			color : #222222;
-            			font-family: "Georgia, serif";
+            			font-family: 'Great Vibes', cursive;
 
             			font-size : 1.4em;
             			font-weight: bold;
@@ -438,3 +438,16 @@ input:focus ~ .highlight {
     background-color:black;
     color:white;
 }
+
+
+
+#cadre1, #cadre2, #cadre3, #cadre4, #cadre5, #cadre6{
+    transform:translate(-500px,0px);
+    opacity:0;
+    transition:1s ease all; 
+  -moz-transition:1s ease all; 
+  -webkit-transition:1s ease all;
+
+}
+
+
