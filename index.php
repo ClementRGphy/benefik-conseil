@@ -37,12 +37,12 @@
                         onmouseover="titre_appear(1)"
                         onmouseout="titre_desappear(1)" id="cadre1">
                             <div class="numero">01</div>
-                            <h2>Logistique<br>&nbsp;</h2>
+                            <h2 style="margin-top:7px;">Logistique<br>&nbsp;</h2>
 								
                             <div class="apparait" >
                                 <img src="images/logistique.jpg" width="100%">
 							</div>
-						<div class="button1" id="button1">Voir</div>
+						<div class="button1" id="button1">Logistique</div>
 
                         </div>
 
@@ -60,10 +60,10 @@
 		            			
                                 
                             <div class="apparait" >
-                                <img src="images/marketing2.jpg" width="100%">
+                                <img src="images/marketing3.jpg" width="100%">
 
 		            		</div>
-                            <div class="button1" id="button2">Voir</div>
+                            <div class="button1" id="button2" style="font-size:12px;">Marketing/communication</div>
 		            	</div>
 
 
@@ -88,9 +88,9 @@
 			            		
 
                             <div class="apparait">
-                                <img src="images/gestion.jpg" width="100%">
+                                <img src="images/admin.jpeg" width="100%">
 		            		</div>
-                            <div class="button1" id="button3">Voir</div>
+                            <div class="button1" id="button3">Administration</div>
 		            	</div>
 		            	
 		            	<div class="lienCentre shadow_google" 
@@ -100,21 +100,21 @@
 			            		<div class="numero">04</div>
                             <h2>Suivi, fidélisation,<br> relation client</h2>
                             <div class="apparait">
-                                <img src="images/suivi.jpg" width="100%">
+                                <img src="images/suivi_client.jpeg" width="100%">
 		            		</div>
-                            <div class="button1" id="button4">Voir</div>
+                            <div class="button1" id="button4">Suivi Client</div>
 		            	</div>
 		            	
 		            	<div class="lienCentre shadow_google" i
                         onmouseover="titre_appear(5)"
                         onmouseout="titre_desappear(5)" id="cadre5"
-                        onclick="window.location='Accompagnement-formation.php'">
+                        onclick="window.location='accompagnement-formation.php'">
 		            			<div class="numero">05</div>
-                            <h2>&nbsp;&nbsp;&nbsp;&nbsp;Formation</h2>
+                            <h2 style="margin-top:7px;">Formation</h2>
                             <div class="apparait">
-                                <img src="images/accompagnement.jpg" width="100%">
+                                <img src="images/formation.png" width="100%">
 		            		</div>
-                            <div class="button1" id="button5">Voir</div>
+                            <div class="button1" id="button5">Formation</div>
 		            	</div>
 		            	
 		            	<div class="lienCentre shadow_google" 
@@ -122,11 +122,11 @@
                         onmouseout="titre_desappear(6)" id="cadre6"
                         onclick="window.location='recherche-developpement.php'">
 		            			<div class="numero">06</div>
-                            <h2>&nbsp;&nbsp;&nbsp;&nbsp;Recherche et développement</h2>
+                            <h2 style="margin-top:7px;">Recherche et développement</h2>
                             <div class="apparait">
                                 <img src="images/r_d.jpg" width="100%">
 		            		</div>
-                            <div class="button1" id="button6">Voir</div>
+                            <div class="button1" id="button6">Recherche & dev</div>
 		            	</div>
 		            </div>
 

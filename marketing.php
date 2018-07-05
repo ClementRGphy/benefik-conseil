@@ -2,7 +2,7 @@
 <meta name="category" content="Marketing & Com">
 
 <div class="cadre_sections shadow_google">
- <img class="image_left" id="image_left"src="images/marketing.jpg"></img>
+ <img class="image_left shadow_google" id="image_left"src="images/marketing.jpg"></img>
     
 <div class="article2" id="article2" >
 

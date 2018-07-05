@@ -12,13 +12,14 @@ if(!isset($_SESSION['id'])){
 
 <html >
 <head>
-  <!-- Site made with Mobirise Website Builder v4.7.7, https://mobirise.com -->
+
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
 <meta name="title" content="Benefik Conseil">
 
-  <meta name="generator" content="Mobirise v4.7.7, mobirise.com">
+  
+
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
  <meta name="keywords" content="Benefik, Entreprise, services, projet, logistique, marketing, communication, gestion, Administration, suivi, fidélisation, relation, client, accompagnement, formation, recherche, développement, stock, import, société, prestations personnalisées, web, marketing, métiers, charte, graphique, contrat, administratif, après vente, valeur, produit, marché">
  <meta name="reply-to" content="conseil@benefik-conseil.fr">
@@ -27,6 +28,11 @@ if(!isset($_SESSION['id'])){
 <meta name="author" lang="fr" content="Benjamin DELPECH, Clément Risso">
 <meta name="identifier-url" content="https://www.benefik-conseil.fr/">
   <link rel="icon" type="image/png" href="images/logo.png" />
+
+
+
+
+  <link rel="stylesheet" href="assets/theme/css/style.css">
 
     
 <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
@@ -48,6 +54,8 @@ if(!isset($_SESSION['id'])){
 <body onload="effect2();"> <?php }else{
     ?><body onload="effect3();"><?php 
 } ?>
+
+
   <section class="menu cid-qTkzRZLJNu" once="menu" id="menu1-0">
 
  
@@ -66,7 +74,7 @@ if(!isset($_SESSION['id'])){
                 
                   
                 
-                <span class="navbar-caption-wrap">
+                <span >
                   <a href="index.php" style="color:white"> <img  src="images/logo.png" style="width:55px;max-height:55px;margin-right:7px" />
                     
                         Benefik Conseil    
@@ -75,51 +83,57 @@ if(!isset($_SESSION['id'])){
                 </span>
             </div>
         </div>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-             <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
-                <li class="nav-item" >
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+          
+                <div class="container_item_menu">
                     <a class="nav-link link  display-4 color-menu" href="logistique.php" >
                        <img class="icone"src="images/icones/build.png" />
-                        Logistique
+                        <span class="nom_menu">Logistique</span>
                     </a>
-                </li>
-                <li class="nav-item">
+                </ldiv>
+                <div class="container_item_menu">
                     <a class="nav-link link  display-4 color-menu" href="marketing.php">
                         <img class="icone"src="images/icones/money.png" />
-                        Marketing/Com
+                        <span class="nom_menu">Marketing/Com</span>
                     </a>
-                </li>
-                <li class="nav-item">
+                </div>
+                <div class="container_item_menu">
                     <a class="nav-link link  display-4 color-menu" href="gestion-administration.php">
                          <img class="icone"src="images/icones/group.png" />
-                        Administration
+                        <span class="nom_menu">Administration</span>
                     </a>
-                </li>
-                <li class="nav-item">
+                </div>
+                <div class="container_item_menu">
                     <a class="nav-link link  display-4 color-menu" href="fidelisation-client.php">
                          <img class="icone"src="images/icones/clientcontent.png" />
-                        Gestion clients
+                        <span class="nom_menu">Gestion clients</span>
                     </a>
-                </li>
-                <li class="nav-item">
+                </div>
+                <div class="container_item_menu">
                     <a class="nav-link link  display-4 color-menu" href="accompagnement-formation.php">
                         <img class="icone"src="images/icones/teacher.png" />
-                        Formation
+                        <span class="nom_menu">Formation</span>
                     </a>
-                </li>
-                <li class="nav-item">
+                </div>
+                <div class="container_item_menu">
                     <a class="nav-link link  display-4 color-menu" href="recherche-developpement.php">
                         <img class="icone"src="images/icones/dev.png" />
-                        Recherche & Dev
+                        <span class="nom_menu">Recherche & Dev</span>
                     </a>
-                </li>
-                <li class="nav-item">
+                </div>
+                <div class="container_item_menu">
                     <a class="nav-link link  display-4 color-menu" href="about.php">
-                        <span class="mbri-search mbr-iconfont mbr-iconfont-btn"></span>
-                        A propos
+                         <img class="icone"src="images/icones/about_us.png" />
+                        <span class="nom_menu">A propos</span>
                     </a>
-                </li>
-            </ul>
+                </div>
+                <div  class="container_item_menu">
+                    <a class="nav-link link  display-4 color-menu" href="contact.php">
+                        <img class="icone"src="images/icones/contact.png" />
+                        <span class="nom_menu">Contact</span>
+                    </a>
+                </div>
+          
             
         </div>
     </nav>
@@ -135,14 +149,9 @@ video#bgvid {
     background-size: cover;
 }
 </style>
+<section class="engine"><a href="https://mobirise.me/h">how to create a web page for free</a></section><section class="cid-qTkA127IK8 mbr-fullscreen" 
+data-bg-video="https://www.youtube.com/watch?v=RN8ss708b6M" id="header2-1">
 
-
-
-
-<video autoplay loop poster="images/font-base.jpg" id="bgvid">
-    <source src="video/video1.mp4" type="video/mp4">
-</video>
-    
 
 
 
@@ -150,6 +159,6 @@ video#bgvid {
 
     
 
-    <div class="container2 align-center" style="margin-top:65px;margin-bottom:25px;">
-        <div class="row justify-content-md-center">
+    <div class="container2 align-center" style="margin-top:50px;">
+        <div class="row justify-content-md-center" >
             <div class="mbr-white col-md-12" >

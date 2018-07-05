@@ -42,12 +42,17 @@ padding-top:1%;padding-bottom:4;font-size:13px;
 
                     }
 
-                    .icone{width:17px;height:17px;max-height:17px;}
+                    .icone{width:13px;height:13px;max-height:13px;}
                     .logo1{width:40px;height:40px;}
                     
                     .color-menu{
-                        color:white;font-family:arial;font-size:12px;padding-left:3px;
+                        color:white;font-family:arial;font-size:10px;
                     }
+                    .nom_menu{padding-left:2px;}
+                    .container_item_menu{
+                    display:flex;
+                        flex-flow : row wrap;
+                        justify-content: space-around;}
             		#titres
             		{
 						 background: rgba(255,255,255, .8);
@@ -93,7 +98,8 @@ padding-top:1%;padding-bottom:4;font-size:13px;
             			/*height : 200px;*/
 
             			position : relative;
-            			padding:3% 3% 3% 3%;
+            			padding:1.5% 1.5% 1.5% 1.5%;
+                        font-size:15px;
                          text-align:center;
             			margin : 1%;
             			background: rgba(255,255,255, .8);
@@ -226,7 +232,7 @@ padding-top:1%;padding-bottom:4;font-size:13px;
                     background: rgba(55,55,55, .99);
                     z-index:10;
                     padding:12px;
-                    width:120px;
+                    
 
 
                     }
@@ -261,7 +267,7 @@ padding-top:1%;padding-bottom:4;font-size:13px;
                         font-size:100%;
                     }
                         .lienCentre{
-                            width:48%;transition: all 2s;
+                            width:48%;transition: all 2s;height:107px;
                         }
                         .container2{
                             width:98%;

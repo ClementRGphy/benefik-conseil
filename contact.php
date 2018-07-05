@@ -10,10 +10,10 @@ Votre email a bien été envoyé, Benefik Conseil vous recontactera prochainemen
 <?php unset($_SESSION['mail_sent']);} ?>
 <div class="cadre_sections shadow_google" style="padding:2%;">
 
- <img class="image_left" src="images/contact.png" style="width:20%"></img>
+ 
     
 
-<div class="article2" id="article2" style="margin-left:30px;width:60%" >
+<div class="article2" id="article2" style="margin-left:5px;margin-right:5px;width:65%;margin:auto" >
 	
 
 <div><h2 STYLE="font-size:110%;">Contactez Benefik Conseil</h2>
@@ -61,3 +61,9 @@ Votre email a bien été envoyé, Benefik Conseil vous recontactera prochainemen
 </section>
 
 <?php include('inc/footer.php');?>
+  <script type="text/javascript">
+     document.getElementById('article2').style.opacity='1';
+   document.getElementById('article2').style.transform='translate(0px, 0px)';
+  document.getElementById('image_left').style.opacity='1';
+    document.getElementById('image_left').style.transform='translate(0px, 0px)';
+</script>

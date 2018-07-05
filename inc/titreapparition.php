@@ -8,7 +8,7 @@
 </div>
 
 <div class="titreapparition" id="titreapparition2" >
- <div style="width:35%;margin-top:15px"><img src="images/marketingtop.png" style="width:100%;height:auto;"></img></div>
+ <div style="width:35%;margin-top:0px"><img src="images/marketingtop.png" style="width:100%;height:auto;"></img></div>
  <div class="container-sous-titres" id="sous-titre2" style="font-size:90%">
   <div class="sous-titre" style="margin-top:0%;"> <b>Marketing</b> et <b>communication</b></div>
   <div class="sous-titre"> Etude de <b>marché</b></div>
@@ -20,7 +20,7 @@
 
 
 <div class="titreapparition" id="titreapparition3">
- <div style="width:70%;margin-top:25px"><img src="images/gestion.png" style="width:100%;height:auto;"></img></div>
+ <div style="width:70%;margin-top:0px"><img src="images/gestion.png" style="width:100%;height:auto;"></img></div>
  <div class="container-sous-titres" id="sous-titre3" style="">
   <div class="sous-titre" style=""> <b>Automatisation</b> et <b>structuration</b> des <b>fluxs</b> de travails.</div>
   <div class="sous-titre"  style="margin-bottom:3%;"> Veille <b>juridique</b></div>
@@ -33,7 +33,7 @@
 
 <div class="titreapparition" id="titreapparition4">
 
-  <div style="width:50%;margin-top:20px;"><img src="images/client2.png" style="width:100%;height:auto;"></img></div>
+  <div style="width:50%;margin-top:0px;"><img src="images/client2.png" style="width:100%;height:auto;"></img></div>
   <div class="container-sous-titres" id="sous-titre4" style="">
     <div class="sous-titre" style=""> <b>Fidélisation</b> clients</div>
     <div class="sous-titre"> Augmentation du <b>ROI</b></div>
@@ -45,7 +45,7 @@
 
 <div class="titreapparition" id="titreapparition5">
   
-  <div style="width:50%;margin-top:15px"><img src="images/formation.png" style="width:100%;height:auto;"></img></div>
+  <div style="width:50%;margin-top:0px"><img src="images/formation.png" style="width:100%;height:auto;"></img></div>
   <div class="container-sous-titres" id="sous-titre5" style="">
    
     <div class="sous-titre" style=""> Conseiller <b>commerciaux</b></div>
@@ -58,7 +58,7 @@
 </div>
 
 <div class="titreapparition" id="titreapparition6">
-  <div style="width:50%;margin-top:25px"><img src="images/recherche.png" style="width:100%;height:auto;"></img></div>
+  <div style="width:50%;margin-top:0px"><img src="images/recherche.png" style="width:100%;height:auto;"></img></div>
   <div class="container-sous-titres" id="sous-titre6" style="">
     <div class="sous-titre" style=""> Conseil et mise au point de formulations</div>
     <div class="sous-titre"> Dépots de <b>dossier de réglementation</b></div>

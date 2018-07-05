@@ -1,10 +1,17 @@
-<section class="footer_sec" id="footer1-2" style="background-color:black;">
+
+</div>
+</div>
+</div>
+
+
+
+<section class="footer_sec" id="footer1-2" style="padding-top:30px;background-color:black;">
 
     
 
     
 
-    <div class="container2" style="text-align:center;padding-top:20px;">
+    <div class="container2" style="text-align:center;">
         <div  style="color:white;" >
             <div  >
                 <div class="media-wrap">
@@ -27,7 +34,7 @@
                     Contacts
                 </h5>
                 <p class="mbr-text">
-                    Email: sophiealonso@gmail.com
+                    Email: contact@benefik-conseil.fr
                     <br>Téléphone: +33 6 25 34 14 54
                     
                 </p>
@@ -102,14 +109,10 @@
   <script src="assets/theme/js/script.js"></script>
 
 
-
-
-
-
 <script src="js/slide.js"></script>
   
-  
-</body>
+  </body>
+
 
 
 </html>
